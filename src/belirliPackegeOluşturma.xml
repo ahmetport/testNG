@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="belirli Package Çalıştırma">
+    <test name="paket">
+        <packages>
+            <package name="tests.day17_pom"></package>
+        </packages>
+    </test>
+</suite>
