@@ -41,7 +41,7 @@ public class Q4_Alert_DependsOn {
     @Test
     public void testalert() {
         Driver.getDriver().get("http://webdriveruniversity.com/Popup-Alerts/index.html");
-        // 1. "http://webdriveruniversity.com/Popup-Alerts/index.html" adresine gidin
+
         // 2.  CLICK ME of JavaScript Confirm Box i  TIKLAYIN
         // 3.  pop up text i alın
         // 4. Mesajın "Press a button!" olduğunu doğrulayın

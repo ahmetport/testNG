@@ -31,7 +31,7 @@ public class PozitifTest {
         String actualUserName=brcPage.kullanıcıProfilİsmi.getText();
         String expectedUsername=ConfigReader.getProperty("brcValidUsername");
         Assert.assertEquals(actualUserName,expectedUsername);
-        Driver.closeDriver();
+        //Driver.closeDriver();
 
 
 
