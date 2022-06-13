@@ -23,5 +23,7 @@ public class SauceDemoPage {
     public List<WebElement> urunler;
     @FindBy(className = "inventory_item_price")
     public List<WebElement>ürünlerListesi;
+    @FindBy(xpath ="//input[@id='user-name']")
+    public WebElement username1;
 }
 
