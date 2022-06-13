@@ -10,12 +10,12 @@ public class C03_Priority extends TestBase {
        eger bir test method'una priority degeri atanmamissa
        default olarak priority=0 kabul edilir.
      */
-    @Test (priority = -5)
+    @Test (priority = -12)
     public void amazonTesti() {
         driver.get("https://www.amazon.com");
         System.out.println(driver.getCurrentUrl());
     }
-    @Test (priority = -2)
+    @Test (priority = 10)
     public void bestbuy() {
         driver.get("https://www.bestbuy.com");
         System.out.println(driver.getCurrentUrl());
